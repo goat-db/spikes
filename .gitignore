@@ -1,0 +1,5 @@
+.todo
+.research/
+.vagrant/
+.vscode/
+target/
