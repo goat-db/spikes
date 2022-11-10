@@ -1,0 +1,22 @@
+#[derive(Clone, Copy, Debug, Hash)]
+pub enum Type {
+  Array,
+  Bool,
+  DateTime,
+  Duration,
+  Int8,
+  Int16,
+  Int32,
+  Int64,
+  Float32,
+  Float64,
+  Map,
+  String,
+  Uint8,
+  Uint16,
+  Uint32,
+  Uint64,
+  Uint128,
+  Uuid,
+  Object,
+}
